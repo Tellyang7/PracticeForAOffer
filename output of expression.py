@@ -85,7 +85,7 @@ def check(s):
     return s
     
    
-   def push_all(s):
+def push_all(s):
     s = s.replace(" ","")
     print(s)
     exp = list()
@@ -107,5 +107,5 @@ def check(s):
         exp.append(s[i])
     return check("".join(exp)) 
     
-    # test..
-    push_all("( ( ! 0 & 1 ) ) | 0")
+# test..
+push_all("( ( ! 0 & 1 ) ) | 0")
