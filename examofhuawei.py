@@ -73,13 +73,6 @@ temp = []
 z = (get_path(al[ks[0]], temp))
 for x in z:
     s = set(x)
-    print("".join(sorted(s)))
+    if len(x) > len(s):
+        print("".join(sorted(s)))
 # 1:[2,3],2:[4],3:[4],4:[1]
-
-
-
-
-
-
-
-
